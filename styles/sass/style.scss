@@ -4,11 +4,20 @@
 @import "header";
 
 
+// @mixin
 
-.top {
-  background-image: url(../images/header-image.jpg);
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+
+
+// .top {
+//   background-image: url(../images/header-image.jpg);
+//   background-size: cover;
+//   width: 100vw;
+//   height: 100vh;
+//   overflow: hidden;
+// }
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
 }
