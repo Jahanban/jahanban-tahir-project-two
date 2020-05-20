@@ -1,0 +1,14 @@
+@import "setup";
+@import "palette";
+@import "fonts";
+@import "header";
+
+
+
+.top {
+  background-image: url(../images/header-image.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
