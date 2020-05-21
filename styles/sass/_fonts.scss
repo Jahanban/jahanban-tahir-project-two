@@ -7,14 +7,33 @@ html {
     font-size: 62.5%;
 }
 
-@mixin base-text($size-value){
-    font-size: $size-value;
-    font-family: $base-font;
-    line-height: 3.2rem;
+body p {
+    @include fontSizeBody(2rem);
+}
+ul.nav-link li a {
+    font-size: 2rem;
+    color: $color-black;
+    font-family: $heading-font;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 2.9rem;
+    letter-spacing: 1px;
 }
 
-// @mixin heading-text($size-value){
-//     font-size: $size-value;
-//     font-family: $heading-font;
-//     line-height: ;
-// }
+h1 {
+    font-family: $heading-font;
+    font-weight: bold;
+    font-style: italic;
+    color: $color-black;
+    text-align: center;
+    font-size: 13.8rem;
+
+}
+
+h2 {
+    @include fontSizeHeadingSmall(4.2rem);
+}
+
+
+

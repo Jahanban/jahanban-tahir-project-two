@@ -1,0 +1,18 @@
+@mixin fontSizeBody($size-value){
+    font-size: $size-value;
+    font-family: $base-font;
+    font-weight: regular;
+    color: $color-black;
+    line-height: 3.2rem;
+}
+
+
+
+
+@mixin fontSizeHeadingSmall($size-value){
+    font-size: $size-value;
+    font-family: $heading-font;
+    font-weight: bold;
+    color: $color-black;
+    letter-spacing: 1px;
+}
