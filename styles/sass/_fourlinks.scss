@@ -1,0 +1,13 @@
+.links-four {
+    max-width: 100%;
+    background-color: $color-ice;
+    padding: 10%;
+    display: flex;
+    z-index: 1;
+    position: relative;
+}
+
+.links-four-one,
+.links-four-two {
+    max-width: 50%;
+}

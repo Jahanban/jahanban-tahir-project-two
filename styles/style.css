@@ -277,13 +277,23 @@ h1 {
   text-transform: uppercase;
 }
 
-.info-text h3 {
+.info-text h3,
+.gear-text h3,
+.link-top-picks h3,
+.link-blog h3,
+.link-community h3,
+.link-get-in-touch h3 {
   font-size: 3.2rem;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   color: #2c2c2c;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.gear-text h3,
+.gear-text p {
+  padding-left: 23%;
 }
 
 header.top {
@@ -343,7 +353,7 @@ img.box-cam {
 }
 
 .intro {
-  background-color: red;
+  background-color: #EFFDF3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,16 +400,42 @@ img.box-cam {
 }
 
 .skills-gear img {
-  max-width: 92%;
-  margin-left: 10%;
+  width: 49%;
+  margin-left: 5%;
   margin-top: 10%;
   -webkit-box-shadow: -10px 10px #FDFA69;
           box-shadow: -10px 10px #FDFA69;
+  z-index: 20;
+  position: absolute;
 }
 
 .gear-text {
   max-width: 46%;
   padding: 5%;
+}
+
+.gear-text button {
+  margin-left: 81%;
+}
+
+.links-four {
+  max-width: 100%;
+  background-color: #EFFDF3;
+  padding: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  position: relative;
+}
+
+.links-four-one,
+.links-four-two {
+  max-width: 50%;
+}
+
+img.banner-map {
+  max-width: 100%;
 }
 
 .wrapper {

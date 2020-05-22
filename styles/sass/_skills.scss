@@ -24,17 +24,17 @@
 }
 
 .skills-gear img {
-max-width: 92%;
-margin-left: 10%;
-margin-top: 10%;
-
+    width: 49%;
+    margin-left: 5%;
+    margin-top: 10%;
     box-shadow: -10px 10px $color-canary;
-    // position: absolute;
+    z-index: 20;
+    position: absolute;
 }
 
 .gear-text {
     max-width: 46%;
-padding: 5%;
+    padding: 5%;
 }
 
 

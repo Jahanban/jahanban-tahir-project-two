@@ -36,9 +36,20 @@ h1 {
     @include fontSizeHeadingSmall(4.2rem);
 }
 
-.info-text h3 {
+.info-text h3,
+.gear-text h3,
+.link-top-picks h3,
+.link-blog h3,
+.link-community h3,
+.link-get-in-touch h3 {
     @include fontSizeHeadingSmall(3.2rem);
 }
+
+.gear-text h3,
+.gear-text p{
+    padding-left: 23%;
+}
+
 
 
 
