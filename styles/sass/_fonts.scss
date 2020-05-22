@@ -57,5 +57,21 @@ h1 {
     // margin: 0 auto;
 }
 
+button a.btn {
+    // color: red;
+    font-family: $heading-font;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 3.2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: $color-black;
+    text-transform: uppercase;
+    // text-decoration: none;
+}
+
+
 
 

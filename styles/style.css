@@ -235,6 +235,12 @@ html {
   overflow: hidden;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -304,6 +310,19 @@ h1 {
   color: #2c2c2c;
   line-height: 3.2rem;
   color: #FAFAFA;
+}
+
+button a.btn {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  line-height: 3.2rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #2c2c2c;
+  text-transform: uppercase;
 }
 
 header.top {
@@ -425,7 +444,13 @@ img.box-cam {
 }
 
 .gear-text button {
-  margin-left: 81%;
+  margin-left: 69%;
+}
+
+button {
+  background: #4CEEA7;
+  border: none;
+  padding: 1%;
 }
 
 .links-four {
@@ -498,8 +523,12 @@ img.banner-map {
   padding: 0% 40%;
 }
 
-.wrapper {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 100%;
+.gear-text button {
+  margin-left: 69%;
+}
+
+button {
+  background: #4CEEA7;
+  border: none;
+  padding: 1%;
 }
