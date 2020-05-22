@@ -19,6 +19,7 @@ ul.nav-link li a {
     text-align: center;
     line-height: 2.9rem;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -33,6 +34,10 @@ h1 {
 
 .intro h2 {
     @include fontSizeHeadingSmall(4.2rem);
+}
+
+.info-text h3 {
+    @include fontSizeHeadingSmall(3.2rem);
 }
 
 

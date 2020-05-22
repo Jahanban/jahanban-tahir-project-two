@@ -1,0 +1,41 @@
+.skills-info {
+    max-width: 100%;
+    background-color: $color-white;
+    display: flex;
+}
+
+.skills-info img {
+   width: 40%;
+    box-shadow: 10px 10px $color-canary;
+    position: absolute;
+    top: 178%;
+    // top: 1244.03px;
+}
+
+.info-text {
+    padding: 1% 5% 5% 52%;
+}
+
+.skills-gear {
+    max-width: 100%;
+    background-color: $color-white;
+    display: flex;
+    // flex-direction: row-reverse;
+}
+
+.skills-gear img {
+max-width: 92%;
+margin-left: 10%;
+margin-top: 10%;
+
+    box-shadow: -10px 10px $color-canary;
+    // position: absolute;
+}
+
+.gear-text {
+    max-width: 46%;
+padding: 5%;
+}
+
+
+

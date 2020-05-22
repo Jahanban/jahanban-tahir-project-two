@@ -12,7 +12,8 @@ header.top {
 }
 
 nav.navbar {
-  max-width: 50%;
+  margin-left: 18%;
+  max-width: calc(100% - 18%);
   height: auto;
 }
 
@@ -21,11 +22,11 @@ ul.nav-link {
   flex-direction: row;
   // justify-content: flex-end;
   list-style: none;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .nav-link li{
-  padding-right: 30%;
+  padding-right: 15%;
 }
 
 ul.nav-link li a{
@@ -33,9 +34,12 @@ ul.nav-link li a{
 }
 
 h1 {
-  max-width: 30%;
-  margin-left: 28%;
-  margin-top: 35%;
+  // margin-left: 28%;
+  padding-left: 29%;
+  padding-top: 28%;
+  // margin-top: 35%;
+  // margin-bottom: 0;
+  max-width: 40%;
    z-index: 20;
 }
 
