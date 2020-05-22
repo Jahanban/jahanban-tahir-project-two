@@ -32,7 +32,8 @@ h1 {
 
 }
 
-.intro h2 {
+.intro h2,
+.month-text h2 {
     @include fontSizeHeadingSmall(4.2rem);
 }
 

@@ -268,7 +268,8 @@ h1 {
   font-size: 13.8rem;
 }
 
-.intro h2 {
+.intro h2,
+.month-text h2 {
   font-size: 4.2rem;
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -434,8 +435,44 @@ img.box-cam {
   max-width: 50%;
 }
 
+.banner {
+  background-color: #EFFDF3;
+}
+
 img.banner-map {
   max-width: 100%;
+}
+
+.month-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.month-profile {
+  padding: 5%;
+}
+
+.month-text {
+  margin-left: 5%;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5%;
+}
+
+.gallery img {
+  max-width: 30%;
 }
 
 .wrapper {
