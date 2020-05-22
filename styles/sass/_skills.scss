@@ -6,10 +6,9 @@
 
 .skills-info img {
    width: 40%;
-    box-shadow: 10px 10px $color-canary;
+    @include boxShadowPositive(20px, 20px);
     position: absolute;
     top: 178%;
-    // top: 1244.03px;
 }
 
 .info-text {
@@ -27,7 +26,7 @@
     width: 49%;
     margin-left: 5%;
     margin-top: 10%;
-    box-shadow: -10px 10px $color-canary;
+    box-shadow: -20px 20px $color-canary;
     z-index: 20;
     position: absolute;
 }

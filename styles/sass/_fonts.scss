@@ -51,6 +51,11 @@ h1 {
     padding-left: 23%;
 }
 
+.end p{
+    @include fontSizeBody(2rem);
+    color: $color-white;
+    // margin: 0 auto;
+}
 
 
 

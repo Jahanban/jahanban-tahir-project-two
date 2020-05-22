@@ -17,3 +17,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+@mixin boxShadowPositive($size-value-one, $size-value-two) {
+    box-shadow: $size-value-one $size-value-two $color-canary;
+}
