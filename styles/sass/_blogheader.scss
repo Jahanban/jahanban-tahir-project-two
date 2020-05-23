@@ -6,7 +6,7 @@
   overflow: hidden;
   // display: flex;
   // flex-direction: column;
-  // position: relative;
+  position: relative;
 }
 
 ul.blog-nav-link li  {
@@ -23,25 +23,17 @@ ul.blog-nav-link a{
   text-decoration: none;
 }
 
+.blog-top h1{
+  padding-left:  40%;
+padding-top: 8%;
+max-width: 40%;
+}
 
-// nav .blog-navbar {
-//   margin-left: 60%;
-//   // max-width: calc(100% - 18%);
-//   height: auto;
-// }
+.blog-cam{
+  width: 60%;
+  margin-left: 40%;
+  position: absolute;
+  top: 58%;
+  box-shadow: -20px 20px $color-canary;
 
-// ul.blog-nav-link {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   list-style: none;
-//   max-width: 100%;
-// }
-
-// .blog-nav-link li{
-//   padding-right: 15%;
-// }
-
-// ul.blog-nav-link li a{
-//   text-decoration: none;
-// }
+}
