@@ -1,4 +1,23 @@
 .blog-aside {
-    width: 40%;
-    margin-top: 20%;
+    width: 30%;
+    margin-top: 10%;
+    position: relative;
+}
+
+.aside-lens {
+    width: 100%;
+    display: block;
+    z-index: 20;
+    position: relative;
+}
+
+.aside-text {
+    background-color: #FAFAFA;
+    width: 68%;
+    margin-left: 35%;
+    padding: 5%;
+    position: absolute;
+    padding-top: 79%;
+    top: 8%;
+    z-index: 5;
 }

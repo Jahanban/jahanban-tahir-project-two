@@ -28,9 +28,12 @@ h1 {
     font-style: italic;
     color: $color-black;
     text-align: center;
-    font-size: 13.8rem;
+    font-size: 12rem;
+    text-transform: uppercase;
 
 }
+
+
 
 .intro h2,
 .month-text h2 {
@@ -84,6 +87,19 @@ ul.blog-nav-link li a {
     line-height: 2.9rem;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.blog-top h1 {
+    font-size: 8rem;
+}
+
+.blog-container p {
+    @include fontSizeBody(2rem);
+}
+
+.blog-container h3{
+    @include fontSizeHeadingSmall(2rem);
+
 }
 
 
