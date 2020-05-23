@@ -17,17 +17,26 @@
     border-right: 0px;
 }
 
+.blog-main h2 {
+    padding-left: 4%;
+}
+
 .blog-comment-one,
 .blog-comment-two {
     display: flex;
     width: 100%;
+    margin-left: 9%;
 }
 
-.blog-comment-one img,
-.blog-comment-two img {
-    
-    width: 100%;
-    display: block;
+.blog-comment-text  {
+    padding-left: 4%;
+    padding-right: 17%;
+    padding-bottom: 10%;
+}
+
+
+.blog-comment-text p:nth-child(1) {
+    margin-top: 0;
 }
 
 
