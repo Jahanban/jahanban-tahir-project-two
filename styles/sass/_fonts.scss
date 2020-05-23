@@ -72,6 +72,20 @@ button a.btn {
     // text-decoration: none;
 }
 
+// Font styling for blog page
+
+ul.blog-nav-link li a {
+    font-size: 2rem;
+    color: $color-black;
+    font-family: $heading-font;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 2.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
 
 
 
