@@ -21,68 +21,8 @@
     padding-left: 1%;
 }
 
-.blog-comment h2 {
-    padding-left: 5%;
-}
 
 
-.blog-comment-one,
-.blog-comment-two {
-    display: flex;
-    width: 100%;
-    margin-left: 9%;
-}
-
-.blog-comment-text  {
-    padding-left: 4%;
-    padding-right: 17%;
-    padding-bottom: 10%;
-}
 
 
-.blog-comment-text p:nth-child(1) {
-    margin-top: 0;
-}
-
-.blog-post-comment{
-    width: 100%;
-}
-
-.blog-form {
-    display: flex;
-    width: 100%;
-    padding-left: 3%;
-}
-
-.form-one {
-    flex: none;
-    padding-bottom: 5%;
-}
-
-.form-one input{
-    background-color: $color-ice;
-    border: none;
-    border-bottom: 2px solid $color-sea-green;
-    padding: 2% 3%;
-    margin-right: 3%;
-    width: 45%;
-}
-
-.form-two input{
-    background-color: $color-ice;
-}
-
-.form-two {
-        display: flex;
-        flex-direction: column;
-        width: 94%;
-}
-
-.form-two textarea {
-    background-color: $color-ice;
-    border: 2px solid $color-sea-green;
-    padding: 2%;
-    margin-bottom: 5%;
-    resize: none;
-}
 

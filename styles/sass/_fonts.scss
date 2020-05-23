@@ -129,6 +129,10 @@ ul.blog-nav-link li a {
     opacity: 1;
 }
 
+.blog-end p{
+    @include fontSizeBody(2rem);
+    color: $color-white;
+}
 
 
 
