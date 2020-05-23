@@ -553,6 +553,10 @@ button {
   padding: 1%;
 }
 
+body {
+  background-color: #EFFDF3;
+}
+
 .blog-top {
   background-image: url(../images/blog-header.jpg);
   background-size: cover;
@@ -591,4 +595,9 @@ ul.blog-nav-link a {
   top: 58%;
   -webkit-box-shadow: -20px 20px #FDFA69;
           box-shadow: -20px 20px #FDFA69;
+}
+
+.blog-aside {
+  width: 40%;
+  margin-top: 20%;
 }
