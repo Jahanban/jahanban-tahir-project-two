@@ -117,6 +117,17 @@ ul.blog-nav-link li a {
     @include fontSizeHeadingSmall(3rem);
 }
 
+.form-one input::placeholder{
+    @include fontSizeAsideComment(1rem);
+    color: $color-black;
+    opacity: 1;
+}
+
+.form-two textarea::placeholder{
+    @include fontSizeAsideComment(1rem);
+    color: $color-black;
+    opacity: 1;
+}
 
 
 

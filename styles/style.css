@@ -387,6 +387,86 @@ ul.blog-nav-link li a {
   text-transform: uppercase;
 }
 
+.form-one input::-webkit-input-placeholder {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #2c2c2c;
+  line-height: 2rem;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
+.form-one input:-ms-input-placeholder {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #2c2c2c;
+  line-height: 2rem;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
+.form-one input::-ms-input-placeholder {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #2c2c2c;
+  line-height: 2rem;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
+.form-one input::placeholder {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #2c2c2c;
+  line-height: 2rem;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
+.form-two textarea::-webkit-input-placeholder {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #2c2c2c;
+  line-height: 2rem;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
+.form-two textarea:-ms-input-placeholder {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #2c2c2c;
+  line-height: 2rem;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
+.form-two textarea::-ms-input-placeholder {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #2c2c2c;
+  line-height: 2rem;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
+.form-two textarea::placeholder {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #2c2c2c;
+  line-height: 2rem;
+  color: #2c2c2c;
+  opacity: 1;
+}
+
 header.top {
   background-image: url(../images/header-image-resize.jpg);
   background-size: cover;
@@ -700,8 +780,12 @@ ul.blog-nav-link a {
   border-right: 0px;
 }
 
-.blog-main h2 {
-  padding-left: 4%;
+.blog-main-text h2 {
+  padding-left: 1%;
+}
+
+.blog-comment h2 {
+  padding-left: 5%;
 }
 
 .blog-comment-one,
@@ -721,4 +805,55 @@ ul.blog-nav-link a {
 
 .blog-comment-text p:nth-child(1) {
   margin-top: 0;
+}
+
+.blog-post-comment {
+  width: 100%;
+}
+
+.blog-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-left: 3%;
+}
+
+.form-one {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  padding-bottom: 5%;
+}
+
+.form-one input {
+  background-color: #EFFDF3;
+  border: none;
+  border-bottom: 2px solid #4CEEA7;
+  padding: 2% 3%;
+  margin-right: 3%;
+  width: 45%;
+}
+
+.form-two input {
+  background-color: #EFFDF3;
+}
+
+.form-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 94%;
+}
+
+.form-two textarea {
+  background-color: #EFFDF3;
+  border: 2px solid #4CEEA7;
+  padding: 2%;
+  margin-bottom: 5%;
+  resize: none;
 }
