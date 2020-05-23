@@ -1,0 +1,34 @@
+
+
+.blog-main {
+    width: 55%;
+    position: absolute;
+    position: absolute;
+    top: 100%;
+    left: 38.4%;
+    margin-top: 17%;
+    margin-bottom: 10%;
+}
+
+.blog-main-text {
+    padding: 5% 5% 5% 5%;   
+    border: 5px solid $color-canary;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.blog-comment-one,
+.blog-comment-two {
+    display: flex;
+    width: 100%;
+}
+
+.blog-comment-one img,
+.blog-comment-two img {
+    
+    width: 100%;
+    display: block;
+}
+
+
+

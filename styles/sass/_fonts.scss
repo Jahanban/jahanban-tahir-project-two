@@ -113,6 +113,10 @@ ul.blog-nav-link li a {
 
 }
 
+.blog-main h2 {
+    @include fontSizeHeadingSmall(3rem);
+}
+
 
 
 
