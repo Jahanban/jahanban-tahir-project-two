@@ -22,3 +22,11 @@
 @mixin boxShadowPositive($size-value-one, $size-value-two) {
     box-shadow: $size-value-one $size-value-two $color-canary;
 }
+
+@mixin fontSizeAsideComment($size-value){
+    font-size: $size-value;
+    font-family: $base-font;
+    font-weight: regular;
+    color: $color-black;
+    line-height: 2rem;
+}
