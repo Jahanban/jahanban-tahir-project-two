@@ -152,3 +152,24 @@ ul.cont-nav-link li a {
 .cont-top h1 {
     font-size: 8rem;
 }
+
+.cont-icon a i{
+    color: $color-black;
+    font-size: 3rem;
+}
+
+.cont-email {
+    @include fontSizeHeadingSmall(2.6rem);
+    letter-spacing: 1.1px;
+}
+
+.cont-email p{
+    @include fontSizeAsideComment(1.5rem);
+    line-height: 1rem;
+    letter-spacing: 1px;
+}
+
+.cont-end p{
+    @include fontSizeBody(2rem);
+    color: $color-white;
+}

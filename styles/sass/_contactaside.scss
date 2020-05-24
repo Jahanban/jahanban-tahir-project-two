@@ -1,0 +1,93 @@
+.cont-main-container{
+   width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.cont-aside{
+    
+    width: 65%;
+    height: auto;
+    padding: 4% 0 10% 5%;
+    // position: relative;
+}
+
+.cont-us {
+    width: 55%;
+    position: absolute;
+    position: absolute;
+    top: 100%;
+    left: 38.4%;
+    margin-top: 17%;
+    margin-bottom: 10%;
+}
+
+.cont-icon a i{
+padding: 2%;
+}
+
+.cont-email{
+    padding-left: 2%;
+}
+
+//Contact form styling
+
+.cont-form-container {
+    width: 54%;
+    position: absolute;
+    left: 40%;
+    top: 77%;
+    z-index: 50;
+}
+
+.cont-form {
+    display: flex;
+    width: 100%;
+    background-color: $color-white;
+    padding-top: 9%;
+    padding-left: 6%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 10%;
+    margin-right: 3%;
+    margin-left: 8%;
+    @include boxShadowPositive(-20px, 20px);
+}
+
+.cont-post-comment{
+    width: 90%;
+}
+
+.form-one {
+    flex: none;
+    padding-bottom: 5%;
+}
+
+.form-one input{
+    background-color: $color-white;
+    border: none;
+    border-bottom: 2px solid $color-sea-green;
+    padding: 2% 3%;
+    margin-right: 3%;
+    width: 45%;
+}
+
+.form-two input{
+    background-color: $color-white;
+}
+
+.form-two {
+        display: flex;
+        flex-direction: column;
+        width: 94%;
+        margin-bottom: 10%;
+}
+
+.form-two textarea {
+    background-color: $color-white;
+    border: 2px solid $color-sea-green;
+    padding: 2%;
+    margin-bottom: 5%;
+    resize: none;
+}
+
