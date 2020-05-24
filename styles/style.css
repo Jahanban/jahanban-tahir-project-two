@@ -476,6 +476,22 @@ ul.blog-nav-link li a {
   color: #FAFAFA;
 }
 
+ul.cont-nav-link li a {
+  font-size: 2rem;
+  color: #2c2c2c;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  line-height: 2.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.cont-top h1 {
+  font-size: 8rem;
+}
+
 header.top {
   background-image: url(../images/header-image-resize.jpg);
   background-size: cover;
@@ -705,19 +721,27 @@ body {
   position: relative;
 }
 
-ul.blog-nav-link li {
-  list-style: none;
-  width: 35%;
+.blog-navbar {
+  margin-left: 54%;
+  width: calc(100% - 54%);
+  height: auto;
+}
+
+ul.blog-nav-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-left: 50%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-ul.blog-nav-link a {
+ul.blog-nav-link li a {
   text-decoration: none;
 }
 
@@ -879,4 +903,53 @@ ul.blog-nav-link a {
 
 .blog-end p {
   background-color: #2c2c2c;
+}
+
+body {
+  background-color: #EFFDF3;
+}
+
+.cont-top {
+  background-image: url(../images/contact-header.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.cont-navbar {
+  margin-left: 49%;
+  width: calc(100% - 49%);
+  height: auto;
+}
+
+ul.cont-nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  max-width: 100%;
+}
+
+.cont-nav-link li {
+  padding-right: 10%;
+}
+
+.cont-nav-link li a {
+  text-decoration: none;
+}
+
+.cont-top h1 {
+  max-width: 100%;
+  position: absolute;
+  left: 17%;
+  top: -22%;
 }

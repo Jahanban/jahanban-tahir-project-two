@@ -134,5 +134,21 @@ ul.blog-nav-link li a {
     color: $color-white;
 }
 
+//Font styling for contact page
 
 
+ul.cont-nav-link li a {
+    font-size: 2rem;
+    color: $color-black;
+    font-family: $heading-font;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 2.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.cont-top h1 {
+    font-size: 8rem;
+}
