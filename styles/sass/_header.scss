@@ -76,6 +76,7 @@ img.box-cam{
 
 //Media queries
 
+
 @include desktopOne {
   h1 {
     padding-left: 36%;
@@ -130,7 +131,7 @@ img.box-cam{
     right: -100%;
     text-align: center;
     z-index: 50;
-    opacity: .7;
+    opacity: 1;
     transition: all .5s ;
   }
 
@@ -157,6 +158,20 @@ img.box-cam{
     top: 70%;
     }
 
+}
+
+@include tabletOne {
+  header.top {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+  }
+   h1 {
+     padding: 0%;
+    position: absolute;
+    right: 30%;
+    top: 50%;
+  }
 }
 
 @include desktopSeven {

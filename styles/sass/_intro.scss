@@ -16,6 +16,12 @@
     }
 }
 
+@include tabletOne {
+    .intro {
+        padding-top: 0%;
+    }
+}
+
 @include desktopSeven {
     .intro {
         justify-content: center;

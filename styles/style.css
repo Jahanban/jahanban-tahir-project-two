@@ -237,7 +237,7 @@ html {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1366px;
+  max-width: 1280px;
   width: 100%;
 }
 
@@ -699,7 +699,7 @@ img.box-cam {
     right: -100%;
     text-align: center;
     z-index: 50;
-    opacity: .7;
+    opacity: 1;
     -webkit-transition: all .5s;
     transition: all .5s;
   }
@@ -725,6 +725,20 @@ img.box-cam {
   img.box-cam {
     max-width: 30%;
     top: 70%;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  header.top {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+  }
+  h1 {
+    padding: 0%;
+    position: absolute;
+    right: 30%;
+    top: 50%;
   }
 }
 
@@ -772,6 +786,12 @@ img.box-cam {
   }
 }
 
+@media only screen and (max-width: 834px) {
+  .intro {
+    padding-top: 0%;
+  }
+}
+
 @media screen and (max-width: 775px) {
   .intro {
     -webkit-box-pack: center;
@@ -799,7 +819,7 @@ img.box-cam {
   -webkit-box-shadow: 20px 20px #FDFA69;
           box-shadow: 20px 20px #FDFA69;
   position: absolute;
-  top: 178%;
+  top: 180%;
 }
 
 .info-text {
@@ -826,7 +846,7 @@ img.box-cam {
 
 .gear-text {
   max-width: 46%;
-  padding: 5%;
+  padding: 9% 1% 5% 1%;
 }
 
 @media only screen and (max-width: 1080px) {

@@ -34,6 +34,7 @@
 
 //Media Queries
 
+
 @mixin desktopOne {
     @media only screen and (max-width:1263px){
         @content;
@@ -64,8 +65,16 @@
     }
 }
 
+
+
 @mixin  desktopSix {
     @media screen and (max-width:855px) {
+        @content;
+    }
+}
+
+@mixin tabletOne {
+    @media only screen and (max-width: 834px) {
         @content;
     }
 }
