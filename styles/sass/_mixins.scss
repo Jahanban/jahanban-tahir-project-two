@@ -91,3 +91,17 @@
         @content;
     }
 }
+
+//Media query mixins for Blog page
+
+@mixin blogOne {
+    @media screen and (max-width:1180px){
+        @content;
+    }
+}
+
+@mixin blogTwo {
+    @media screen and (max-width: 560px) {
+        @content;
+    }
+}

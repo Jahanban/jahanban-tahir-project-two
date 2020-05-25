@@ -8,3 +8,12 @@
 .blog-end p {
     background-color: $color-black;
 }
+
+//Media query
+
+@include blogOne {
+    .blog-end {
+        margin-top: 5%;
+        padding-top: 5%;
+    }
+}

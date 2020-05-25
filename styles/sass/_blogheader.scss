@@ -13,7 +13,7 @@ body {
 
 
 
-.blog-navbar {
+nav.blog-navbar {
   margin-left: 54%;
   width: calc(100% - 54%);
   height: auto;
@@ -31,6 +31,10 @@ ul.blog-nav-link li a{
   text-decoration: none;
 }
 
+.blog-nav-link li a:hover, a.active{
+    border-bottom: 2px solid $color-sea-green;
+  }
+
 
 
 .blog-top h1{
@@ -45,4 +49,76 @@ ul.blog-nav-link li a{
   position: absolute;
   top: 58%;
   box-shadow: -20px 20px $color-canary;
+}
+
+.check-btn {
+    font-size: 3rem;
+    color: $color-black;
+    position: absolute;
+    right: 0;
+    line-height: 8rem;
+    margin-right: 4rem;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check {
+    display: none;
+  }
+
+
+//Media queries
+
+@include desktopThree {
+  .blog-top {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+  }
+
+  .blog-cam {
+    max-width: calc(100% - 40%);
+    position: relative;
+    margin-left: 22%;
+  }
+}
+
+@include desktopFive {
+
+  .check-btn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 25%;
+    height: 50vh;
+    background: $color-ice;
+    top: 4rem;
+    right: -100%;
+    text-align: center;
+    z-index: 50;
+    opacity: 1;
+    transition: all .5s ;
+  }
+
+  ul.blog-nav-link {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .ul.blog-nav-link {
+    padding: 10%;
+  }
+
+  .blog-nav-link li a:hover, a.active{
+    background: none;
+    color: $color-sea-green;
+  }
+
+  #check:checked ~ ul{
+  right: 0;
+  }
+
+
 }

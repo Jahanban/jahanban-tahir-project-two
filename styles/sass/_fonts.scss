@@ -198,6 +198,20 @@ ul.blog-nav-link li a {
     color: $color-white;
 }
 
+//Media Query Blog page
+
+@include desktopThree {
+    header.blog-top h1 {
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        padding-left: 0%;
+        margin-left: 25%;
+        margin-top: 0%;
+        font-size: 4rem;
+    }
+}
+
 //Font styling for contact page
 
 
