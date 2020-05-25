@@ -64,3 +64,11 @@
     margin-bottom: 5%;
     resize: none;
 }
+
+//Media Query
+
+@include blogTwo {
+    .blog-form {
+        margin-left: 5%;
+    }
+}

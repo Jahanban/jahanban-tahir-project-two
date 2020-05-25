@@ -84,6 +84,9 @@ ul.blog-nav-link li a{
 }
 
 @include desktopFive {
+  .blog-top {
+    height: 50vh;
+  }
 
   .check-btn {
     display: block;
@@ -91,14 +94,14 @@ ul.blog-nav-link li a{
 
   ul {
     position: fixed;
-    width: 25%;
+    width: 35%;
     height: 50vh;
     background: $color-ice;
     top: 4rem;
     right: -100%;
     text-align: center;
     z-index: 50;
-    opacity: 1;
+    opacity: .7;
     transition: all .5s ;
   }
 
@@ -120,5 +123,15 @@ ul.blog-nav-link li a{
   right: 0;
   }
 
-
 }
+
+@include blogTwo {
+  .blog-top {
+    height: 30vh;
+  }
+
+  ul {
+    width: 100%;
+  }
+}
+

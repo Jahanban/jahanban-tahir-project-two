@@ -17,3 +17,15 @@
         padding-top: 5%;
     }
 }
+
+@include blogTwo {
+    .blog-end {
+        margin-top: 2%;
+        padding-top: 2%;
+    }
+
+    .blog-end p {
+        padding-left: 23%;
+        font-size: 1.5rem;
+    }
+}

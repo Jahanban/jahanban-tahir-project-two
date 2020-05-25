@@ -63,3 +63,16 @@
         padding-left: 10%;
     }
 }
+
+@include desktopFive {
+    .aside-text h3,
+    .aside-text ul {
+        display: none;
+    }
+}
+
+@include blogTwo {
+  .blog-container-two{
+   padding-right: 10%;
+  }
+}
