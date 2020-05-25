@@ -15,7 +15,7 @@ body {
 
 
 
-.cont-navbar {
+nav.cont-navbar {
   margin-left: 49%;
 width: calc(100% - 49%);
 height: auto;
@@ -29,11 +29,11 @@ ul.cont-nav-link{
   max-width: 100%;
 }
 
-.cont-nav-link li{
+ul.cont-nav-link li{
 padding-right: 10%;
 }
 
-.cont-nav-link li a{
+ul.cont-nav-link li a{
   text-decoration: none;
   
 }

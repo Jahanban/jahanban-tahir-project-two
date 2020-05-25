@@ -10,6 +10,9 @@ html {
 body p {
     @include fontSizeBody(2rem);
 }
+
+//Styling for index 
+
 ul.nav-link li a {
     font-size: 2rem;
     color: $color-black;
@@ -75,6 +78,20 @@ button a.btn {
     // text-decoration: none;
 }
 
+//Media query for index
+
+
+
+@include desktopOne {
+    h1 {
+        font-size: 8rem
+    }
+}
+
+
+
+
+
 // Font styling for blog page
 
 ul.blog-nav-link li a {
@@ -137,7 +154,7 @@ ul.blog-nav-link li a {
 //Font styling for contact page
 
 
-ul.cont-nav-link li a {
+.cont-nav-link li a {
     font-size: 2rem;
     color: $color-black;
     font-family: $heading-font;

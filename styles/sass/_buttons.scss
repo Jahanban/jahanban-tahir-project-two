@@ -7,3 +7,11 @@ button {
     border: none;
     padding: 1%;
 }
+
+//Media query
+
+@include desktopOne {
+  .gear-text button {
+    margin-left: 43%;
+}
+}

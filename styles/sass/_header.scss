@@ -33,6 +33,10 @@ ul.nav-link li a{
   text-decoration: none;
 }
 
+.nav-link li a:hover, a.active{
+    border-bottom: 2px solid $color-sea-green;
+  }
+
 h1 {
   // margin-left: 28%;
   padding-left: 29%;
@@ -52,9 +56,95 @@ img.box-cam{
   border: 20px solid $color-canary;
   border-right: 0;
   z-index: 10;
-  
 }
 
+.check-btn {
+    font-size: 3rem;
+    color: $color-black;
+    position: absolute;
+    right: 0;
+    line-height: 8rem;
+    margin-right: 4rem;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check {
+    display: none;
+  }
+
+
+//Media queries
+
+@include desktopOne {
+  h1 {
+    padding-left: 36%;
+    padding-top: 40%;
+  }
+}
+
+
+@include desktopThree {
+  nav.navbar {
+    margin-left: 14%;
+    max-width: calc(100% - 14%);
+  }
+}
+
+@include desktopFour {
+  h1 {
+    padding-left: 36%;
+    padding-top: 45%;
+  }
+
+  nav.navbar {
+    margin-left: 10%;
+    max-width: calc(100% - 10%);
+  }
+  img.box-cam{
+  max-width: 35%;
+  top: 60%;
+  }
+}
+
+@include desktopFive {
+  
+  .check-btn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 25%;
+    height: 50vh;
+    background: $color-ice;
+    top: 4rem;
+    right: -100%;
+    text-align: center;
+    z-index: 50;
+    opacity: .7;
+    transition: all .5s ;
+  }
+
+  ul.nav-link {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .ul.nav-link {
+    padding: 10%;
+  }
+
+  .nav-link li a:hover, a.active{
+    background: none;
+    color: $color-sea-green;
+  }
+
+  #check:checked ~ ul{
+  right: 0;
+  }
+
+}
 
 
 
