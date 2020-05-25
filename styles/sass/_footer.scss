@@ -6,3 +6,11 @@
     margin: 0 auto;
     padding: 0% 40%;
 }
+
+//Media Query
+
+@include desktopEight {
+    .end p {
+        padding: 0 15%;
+    }
+}

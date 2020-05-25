@@ -108,7 +108,15 @@ img.box-cam{
 }
 
 @include desktopFive {
+  h1 {
+    padding-left: 70%;
+    padding-top: 60%;
+  }
   
+  img.box-cam{
+    display: none;
+  }
+
   .check-btn {
     display: block;
   }
@@ -144,6 +152,29 @@ img.box-cam{
   right: 0;
   }
 
+  img.box-cam{
+    max-width: 30%;
+    top: 70%;
+    }
+
+}
+
+@include desktopSeven {
+  h1 {
+    padding-left: 70%;
+    padding-top: 80%;
+  }
+}
+
+@include desktopEight {
+  h1 {
+    padding-left: 1%;
+    padding-top: 1%;
+  }
+
+  ul {
+    width: 50%;
+  }
 }
 
 

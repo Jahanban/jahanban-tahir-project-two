@@ -88,6 +88,53 @@ button a.btn {
     }
 }
 
+@include desktopFive {
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .info-text h3 {
+        font-size: 2.8rem;
+    }
+
+    .info-text p{
+        margin-top: 1rem;
+    }
+
+    .gear-text h3 {
+        font-size: 2.8rem;
+    }
+
+    .month-text h2 {
+        font-size: 3rem;
+    }
+}
+
+@include desktopSeven {
+    h1 {
+        font-size: 3rem;
+    }
+    .intro h2 {
+        font-size: 3rem;
+    }
+}
+
+@include desktopEight {
+     h1 {
+        font-size: 2rem;
+    }
+    
+    .link-top-picks h3,
+.link-blog h3,
+.link-community h3,
+.link-get-in-touch h3 {
+    font-size: 1.5rem;
+}
+.month-text h2 {
+        font-size: 2rem;
+    }
+}
 
 
 

@@ -37,4 +37,79 @@
 }
 
 
+//Media Query
 
+@include desktopFour {
+    .info-text {
+    padding: 0% 2% 3% 48%;
+    }
+
+    .gear-text {
+        padding: 7% 2% 5% 0%;
+    }
+}
+
+@include desktopFive {
+     .info-text h3 {
+        margin-bottom: 1rem;
+    }
+
+    .info-text p{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .gear-text h3 {
+        margin-bottom: 1rem;
+    }
+
+
+    .gear-text p{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@include desktopSix {
+   
+    .skills-info {
+        flex: 1 1 auto ;
+    }
+
+}
+
+@include desktopSeven {
+    
+        .skills-info {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    .skills-gear {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-info img {
+   width: 100%;
+    position: relative;
+ 
+}
+
+    .skills-gear img {
+   width: 100%;
+    margin-left: 0;
+    position: relative;
+}
+
+    .info-text {
+        padding: 2%;
+        width: 60%;   
+    }
+
+    .gear-text {
+        max-width: 100%;
+     padding: 2% 16% 5% 5%;
+}
+}

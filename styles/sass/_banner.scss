@@ -21,3 +21,20 @@ img.banner-map {
 .month-text {
     margin-left: 5%;
 }
+
+//Media Query
+@include desktopFour {
+.month-profile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+@include desktopEight {
+   
+.month-text h2 {
+        padding: 5%;
+    }
+}

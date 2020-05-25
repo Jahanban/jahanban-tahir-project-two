@@ -8,6 +8,23 @@
     position: relative
 }
 
+//Media query
 
+@include desktopFour{
+    .intro {
+        flex: 1 1 auto;
+    }
+}
+
+@include desktopSeven {
+    .intro {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro p {
+        padding-left: 13%;
+    }
+}
 
 

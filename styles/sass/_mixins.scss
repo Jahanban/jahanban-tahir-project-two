@@ -64,3 +64,21 @@
     }
 }
 
+@mixin  desktopSix {
+    @media screen and (max-width:855px) {
+        @content;
+    }
+}
+
+@mixin desktopSeven {
+    @media screen and (max-width:775px){
+        @content;
+}
+}
+
+
+@mixin desktopEight {
+    @media screen and (max-width:620px) {
+        @content;
+    }
+}
