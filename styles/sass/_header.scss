@@ -1,6 +1,4 @@
 
-
-
 header.top {
   background-image: url(../images/header-image-resize.jpg);
   background-size: cover;
@@ -20,7 +18,6 @@ nav.navbar {
 ul.nav-link {
   display: flex;
   flex-direction: row;
-  // justify-content: flex-end;
   list-style: none;
   max-width: 100%;
 }
@@ -38,11 +35,8 @@ ul.nav-link li a{
   }
 
 h1 {
-  // margin-left: 28%;
   padding-left: 29%;
   padding-top: 30%;
-  // margin-top: 35%;
-  // margin-bottom: 0;
   max-width: 40%;
    z-index: 20;
 }
@@ -78,9 +72,10 @@ img.box-cam{
 
 
 @include desktopOne {
+
   h1 {
-    padding-left: 36%;
-    padding-top: 40%;
+    padding-left: 56%;
+    padding-top: 20%;
   }
 }
 
@@ -110,8 +105,8 @@ img.box-cam{
 
 @include desktopFive {
   h1 {
-    padding-left: 70%;
-    padding-top: 60%;
+    padding-left: 50%;
+    padding-top: 1%;
   }
   
   img.box-cam{
@@ -164,26 +159,19 @@ img.box-cam{
   header.top {
     background-size: contain;
     background-repeat: no-repeat;
-    height: 30vh;
+    height: 85vh;
   }
-   h1 {
-     padding: 0%;
-    position: absolute;
-    right: 30%;
-    top: 50%;
-  }
-}
-
-@include desktopSeven {
-  h1 {
-    padding-left: 70%;
-    padding-top: 80%;
-  }
-}
 
 @include desktopEight {
+   header.top {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 55vh;
+  }
+}
+
   h1 {
-    padding-left: 1%;
+    padding-left: 45%;
     padding-top: 1%;
   }
 

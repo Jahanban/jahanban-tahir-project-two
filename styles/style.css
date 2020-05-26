@@ -363,7 +363,7 @@ button a.btn {
 
 @media screen and (max-width: 620px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .link-top-picks h3,
   .link-blog h3,
@@ -588,8 +588,12 @@ ul.blog-nav-link li a {
 }
 
 @media screen and (max-width: 560px) {
+  .cont-email {
+    font-size: 1.5rem;
+  }
   .cont-email p {
     font-size: 1.2rem;
+    line-height: 2rem;
   }
 }
 
@@ -670,8 +674,8 @@ img.box-cam {
 
 @media only screen and (max-width: 1263px) {
   h1 {
-    padding-left: 36%;
-    padding-top: 40%;
+    padding-left: 56%;
+    padding-top: 20%;
   }
 }
 
@@ -699,8 +703,8 @@ img.box-cam {
 
 @media only screen and (max-width: 1000px) {
   h1 {
-    padding-left: 70%;
-    padding-top: 60%;
+    padding-left: 50%;
+    padding-top: 1%;
   }
   img.box-cam {
     display: none;
@@ -750,26 +754,21 @@ img.box-cam {
   header.top {
     background-size: contain;
     background-repeat: no-repeat;
-    height: 30vh;
-  }
-  h1 {
-    padding: 0%;
-    position: absolute;
-    right: 30%;
-    top: 50%;
+    height: 85vh;
   }
 }
 
-@media screen and (max-width: 775px) {
-  h1 {
-    padding-left: 70%;
-    padding-top: 80%;
+@media only screen and (max-width: 834px) and (max-width: 620px) {
+  header.top {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 55vh;
   }
 }
 
-@media screen and (max-width: 620px) {
+@media only screen and (max-width: 834px) {
   h1 {
-    padding-left: 1%;
+    padding-left: 45%;
     padding-top: 1%;
   }
   ul {
@@ -1605,6 +1604,15 @@ ul.cont-nav-link li a {
   }
   #check:checked ~ ul {
     right: 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cont-top {
+    height: 30vh;
+  }
+  ul {
+    width: 100%;
   }
 }
 

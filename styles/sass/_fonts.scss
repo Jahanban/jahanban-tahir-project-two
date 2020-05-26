@@ -122,18 +122,19 @@ button a.btn {
 
 @include desktopEight {
      h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .link-top-picks h3,
-.link-blog h3,
-.link-community h3,
-.link-get-in-touch h3 {
-    font-size: 1.5rem;
-}
-.month-text h2 {
-        font-size: 2rem;
+    .link-blog h3,
+    .link-community h3,
+    .link-get-in-touch h3 {
+        font-size: 1.5rem;
     }
+    
+    .month-text h2 {
+            font-size: 2rem;
+        }
 }
 
 
@@ -255,7 +256,11 @@ ul.blog-nav-link li a {
 //Media query contact page fonts
 
 @include blogTwo{
+    .cont-email {
+    font-size: 1.5rem;
+}
     .cont-email p{
    font-size: 1.2rem;
+   line-height: 2rem;
 }
 }

@@ -19,7 +19,6 @@
     max-width: 100%;
     background-color: $color-white;
     display: flex;
-    // flex-direction: row-reverse;
 }
 
 .skills-gear img {
@@ -81,11 +80,12 @@
 
 @include desktopSeven {
     
-        .skills-info {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+    .skills-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .skills-gear {
         flex-direction: column-reverse;
         justify-content: center;
@@ -93,9 +93,8 @@
     }
 
     .skills-info img {
-   width: 100%;
+     width: 100%;
     position: relative;
- 
 }
 
     .skills-gear img {
