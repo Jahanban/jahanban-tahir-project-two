@@ -15,7 +15,6 @@
 .cont-us {
     width: 55%;
     position: absolute;
-    position: absolute;
     top: 100%;
     left: 38.4%;
     margin-top: 17%;
@@ -91,3 +90,21 @@ padding: 2%;
     resize: none;
 }
 
+//Media Query
+
+@include desktopFive {
+    .cont-main-container{
+   flex-direction: column;
+     justify-content: center;
+        align-items: center;
+}
+.cont-us {
+    width: 100%;
+    position: relative;
+}
+.cont-form-container {
+    width: 80%;
+    position: relative;
+    left: 5%;
+}
+}

@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   display: flex;
   position: relative;
-  z-index: 10;
+  // z-index: 10;
 }
 
 
@@ -25,8 +25,8 @@ ul.cont-nav-link{
   display: flex;
   flex-direction: row;
   list-style: none;
-  // justify-content: space-evenly;
-  max-width: 100%;
+  justify-content: space-evenly;
+  // max-width: 100%;
 }
 
 ul.cont-nav-link li{
@@ -38,11 +38,80 @@ ul.cont-nav-link li a{
   
 }
 
+.cont-nav-link li a:hover, a.active{
+    border-bottom: 2px solid $color-sea-green;
+  }
+
 
 .cont-top h1{
   max-width: 100%;
-  position: absolute;
-left: 17%;
-top: -22%;
+padding: 0;
+position: absolute;
+left: 48%;
+top: 49%;
+}
+
+.check-btn {
+    font-size: 3rem;
+    color: $color-black;
+    position: absolute;
+    right: 0;
+    line-height: 8rem;
+    margin-right: 4rem;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check {
+    display: none;
+  }
+
+  @include desktopThree {
+  .cont-top h1{
+left: 2%;
+top: 2%;
+margin-top: 0;
+font-size: 4rem;
+}
+  }
+
+
+@include desktopFive {
+
+  .check-btn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 35%;
+    height: 50vh;
+    background: $color-ice;
+    top: 4rem;
+    right: -100%;
+    text-align: center;
+    z-index: 50;
+    opacity: .7;
+    transition: all .5s ;
+  }
+
+  ul.cont-nav-link {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .ul.cont-nav-link {
+    padding: 10%;
+  }
+
+  .cont-nav-link li a:hover, a.active{
+    background: none;
+    color: $color-sea-green;
+  }
+
+  #check:checked ~ ul{
+  right: 0;
+  }
+
 }
 

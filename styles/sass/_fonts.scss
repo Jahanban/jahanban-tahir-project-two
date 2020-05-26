@@ -251,3 +251,11 @@ ul.blog-nav-link li a {
     @include fontSizeBody(2rem);
     color: $color-white;
 }
+
+//Media query contact page fonts
+
+@include blogTwo{
+    .cont-email p{
+   font-size: 1.2rem;
+}
+}

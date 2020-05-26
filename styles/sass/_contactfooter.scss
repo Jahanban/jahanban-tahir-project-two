@@ -6,3 +6,17 @@
 .cont-end p {
     background-color: $color-black;
 }
+
+//Media query
+
+@include blogTwo {
+    .cont-end {
+        margin-top: 2%;
+        padding-top: 2%;
+    }
+
+    .cont-end p {
+        padding-left: 23%;
+        font-size: 1.5rem;
+    }
+}
